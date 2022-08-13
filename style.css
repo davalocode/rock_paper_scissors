@@ -1,0 +1,50 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.result {
+    display: flex;
+    justify-content: space-around;
+}
+
+.see {
+    background-color: rgba(127, 39, 214, 0.616);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.see p img {
+    width: 75%;
+    margin: 10%;
+}
+
+.election {
+    border-radius: 20px;
+    background-color: rgba(127, 39, 214, 0.616);
+    width: 25%;
+    margin: 0px auto;
+    display: flex;
+    margin-top: 2%;
+}
+.election p {
+    display: inline-block;
+}
+
+.election p img {
+    width: 75%;
+    margin: 10%;
+    cursor: pointer;
+}
+
+.result {
+    border-radius: 20px;
+    width: 80%;
+    margin: 0px auto;
+    background-color: rebeccapurple;
+    color: antiquewhite;
+}

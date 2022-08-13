@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://github.com/t4t5/sweetalert.git">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <h1>ROCK PAPER SCISSORS</h1>
+    <div class="main-container">
+        <div class="result">
+            <p>Wins: <span id="result_wins"></span></p>
+            <p>Loses: <span id="result_loses"></span></p>
+            <p>Tie: <span id="result_ties"></span></p>
+        </div>
+        <div class="see">
+
+            <p><img src="img/papel.png" id="you">
+            <br>You</p>
+            <p><img src="img/papel.png" id="computer">
+                <br>Machine</p>
+        </div>
+        <div class="election">
+            <p><img src="img/roca.png" onclick="almacenar_roca()" id="rock" alt="rock"></p>
+            <p><img src="img/papel.png" onclick="almacenar_papel()" id="paper" alt="paper"></p>
+            <p><img src="img/tijera.png" onclick="almacenar_tijera()" id="scissors" alt="scissors"></p>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
